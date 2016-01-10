@@ -1,11 +1,6 @@
 #include <ctime>
 #include "DebugLogger.h"
 
-DebugLogger::DebugLogger()
-{
-	
-}
-
 
 bool DebugLogger::CreateLogFile(char* path)
 {
