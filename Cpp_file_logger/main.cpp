@@ -5,7 +5,6 @@
 
 int main()
 {
-	////////////////////////////////////////////////    Singleton Init   ////////////////////////////////////////////////
 	// Init Logger once
 	std::stringstream stringBuilder;
 	DebugLogger *debugLog = DebugLogger::GetInstance();
