@@ -5,30 +5,6 @@
 
 int main()
 {
-	////////////////////////////////////////////////         Regular Init   ////////////////////////////////////////////////
-	// Init Logger once
-	//std::stringstream stringBuilder;
-	//DebugLogger debugLog;
-	//debugLog.CreateLogFile("..\\..\\itay_log_file.txt");
-	//
-	//// examples for variables
-	//string ddd		= "ddd";
-	//int aaa			= 21;
-	//double bbb		= 0.3333;
-	//float ccc		= 12334;
-
-	//string result;
-	//// Format the string 'param: value'
-	//stringBuilder << "\nparam1:"	<< ddd
-	//			  << "\nparam2:"	<< aaa
-	//			  << "\nparam3:"	<< bbb
-	//			  << "\nparam4:"	<< ccc;
-
-	//result = stringBuilder.str();
-	//debugLog.WriteToLogger(result);
-
-	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 	////////////////////////////////////////////////    Singleton Init   ////////////////////////////////////////////////
 	// Init Logger once
 	std::stringstream stringBuilder;
